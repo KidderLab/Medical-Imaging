@@ -263,6 +263,17 @@ You may access the PyTorch-FID code for computing FID scores at this link: [pyto
 ```bash
 git clone https://github.com/mseitzer/pytorch-fid.git
 pip install pytorch-fid
+```
+
+```
+Requirements:
+
+*    python3
+*    pytorch
+*    torchvision
+*    pillow
+*    numpy
+*    scipy
 
 ```
 
