@@ -61,6 +61,34 @@ concepts_list = [
         "instance_data_dir":    "/content/data/zwx",
         "class_data_dir":       "/content/data/dog"
     },
+
+# `class_data_dir` contains regularization images
+import json
+import os
+for c in concepts_list:
+    os.makedirs(c["instance_data_dir"], exist_ok=True)
+
+with open("concepts_list.json", "w") as f:
+    json.dump(concepts_list, f, indent=4)
+```
+
+```
+#@markdown Upload your images by running this cell.
+
+#@markdown OR
+
+#@markdown You can use the file manager on the left panel to upload (drag and drop) to each `instance_data_dir` (it uploads faster). You can also upload your own class images in `class_data_dir` if u don't wanna generate with SD.
+
+import os
+from google.colab import files
+import shutil
+
+for c in concepts_list:
+    print(f"Uploading instance images for `{c['instance_prompt']}`")
+    uploaded = files.upload()
+    for filename in uploaded.keys():
+        dst_path = os.path.join(c['instance_data_dir'], filename)
+        shutil.move(filename, dst_path)
 ```
 
 
