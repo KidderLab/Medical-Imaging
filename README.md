@@ -254,5 +254,9 @@ for img in images:
 [low_grade_glioma_lgg_horizontal](https://huggingface.co/KidderLab/low_grade_glioma_lgg_horizontal)
 
 
+# Compute FID Scores 
+
+The pytorch-fid code can be obtained from here:[pytorch-fid](https://github.com/mseitzer/pytorch-fid/).
+
 
 
