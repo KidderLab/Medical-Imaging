@@ -71,8 +71,22 @@ for img in images:
 # Huggingface Models
 
 [Chest X-ray](https://huggingface.co/KidderLab/Chest_X-ray)
+
 [Brain_normal_saggital_MRI](https://huggingface.co/KidderLab/Brain_normal_saggital_MRI)
+
 [Brain_pituitary_tumor_cross_sectio](https://huggingface.co/KidderLab/Brain_pituitary_tumor_cross_section)
+
+[Brain_pituitary_tumor_horizontal_MRI](https://huggingface.co/KidderLab/Brain_pituitary_tumor_horizontal_MRI)
+
+[Glioma_saggital_MRI](https://huggingface.co/KidderLab/Glioma_saggital_MRI)
+
+[Mammography_CESM](https://huggingface.co/KidderLab/Mammography_CESM)
+
+[meningioma_tumor](https://huggingface.co/KidderLab/meningioma_tumor)
+
+[Brain_pituitary_tumor_saggital](https://huggingface.co/KidderLab/Brain_pituitary_tumor_saggital)
+
+[low_grade_glioma_lgg_horizontal](https://huggingface.co/KidderLab/low_grade_glioma_lgg_horizontal)
 
 
 
