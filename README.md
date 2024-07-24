@@ -52,6 +52,18 @@ if save_to_gdrive:
 
 **Start Training**
 
+```
+# You can also add multiple concepts here. Try tweaking `--max_train_steps` accordingly.
+concepts_list = [
+    {
+        "instance_prompt":      "photo of zwx dog",
+        "class_prompt":         "photo of a dog",
+        "instance_data_dir":    "/content/data/zwx",
+        "class_data_dir":       "/content/data/dog"
+    },
+```
+
+
 ```bash
 !python3 train_dreambooth.py --pretrained_model_name_or_path=$MODEL_NAME --output_dir=$OUTPUT_DIR --train_batch_size=1 --max_train_steps=800 --learning_rate=1e-6
 ```
