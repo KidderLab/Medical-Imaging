@@ -235,23 +235,24 @@ for img in images:
 
 # Huggingface Models
 
-[Chest X-ray](https://huggingface.co/KidderLab/Chest_X-ray)
+[Brain_normal_horizontal_MRI](https://huggingface.co/KidderLab/Brain_normal_horizontal_MRI)
 
 [Brain_normal_saggital_MRI](https://huggingface.co/KidderLab/Brain_normal_saggital_MRI)
 
-[Brain_normal_horizontal_MRI](https://huggingface.co/KidderLab/Brain_normal_horizontal_MRI)
-
 [Brain_pituitary_tumor_horizontal_MRI](https://huggingface.co/KidderLab/Brain_pituitary_tumor_horizontal_MRI)
 
+[Brain_pituitary_tumor_saggital](https://huggingface.co/KidderLab/Brain_pituitary_tumor_saggital)
+
+[Chest X-ray](https://huggingface.co/KidderLab/Chest_X-ray)
+
 [Glioma_saggital_MRI](https://huggingface.co/KidderLab/Glioma_saggital_MRI)
+
+[low_grade_glioma_lgg_horizontal](https://huggingface.co/KidderLab/low_grade_glioma_lgg_horizontal)
 
 [Mammography_CESM](https://huggingface.co/KidderLab/Mammography_CESM)
 
 [meningioma_tumor](https://huggingface.co/KidderLab/meningioma_tumor)
 
-[Brain_pituitary_tumor_saggital](https://huggingface.co/KidderLab/Brain_pituitary_tumor_saggital)
-
-[low_grade_glioma_lgg_horizontal](https://huggingface.co/KidderLab/low_grade_glioma_lgg_horizontal)
 
 
 # Compute FID Scores 
