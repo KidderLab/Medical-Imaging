@@ -204,7 +204,7 @@ g_cuda = None
 g_cuda = torch.Generator(device='cuda')
 seed = 52362 #@param {type:"number"}
 g_cuda.manual_seed(seed)
-```python
+```
 
 # Huggingface Models
 
