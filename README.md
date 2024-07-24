@@ -3,7 +3,7 @@
 
 **Dreambooth Stable Diffusion Notebook:**
 [DreamBooth Stable Diffusion Notebook](https://github.com/ShivamShrirao/diffusers/blob/main/examples/dreambooth/DreamBooth_Stable_Diffusion.ipynb).
-This jupyter notebook was used for training and synthesis of medical images.
+This jupyter notebook can be run in [colab](https://colab.research.google.com/) to perform training and synthesis of medical images.
 
 # Dreambooth Stable Diffusion Training
 
