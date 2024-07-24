@@ -1,4 +1,4 @@
-# Medical_Imaging
+# Medical Imaging
 
 
 **Dreambooth Stable Diffusion Notebook:**
