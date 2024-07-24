@@ -118,8 +118,15 @@ for c in concepts_list:
 ```
 
 
-```bash
-!python3 train_dreambooth.py --pretrained_model_name_or_path=$MODEL_NAME --output_dir=$OUTPUT_DIR --train_batch_size=1 --max_train_steps=800 --learning_rate=1e-6
+```python
+#Specify the weights directory to use (leave blank for latest)
+WEIGHTS_DIR = "" #@param {type:"string"}
+if WEIGHTS_DIR == "":
+    from natsort import natsorted
+    from glob import glob
+    import os
+    WEIGHTS_DIR = natsorted(glob(OUTPUT_DIR + os.sep + "*"))[-1]
+print(f"[*] WEIGHTS_DIR={WEIGHTS_DIR}")
 ```
 
 **Inference Code**
