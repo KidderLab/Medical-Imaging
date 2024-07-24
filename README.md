@@ -236,7 +236,7 @@ for img in images:
 
 # Huggingface Models
 
-For accessing Dreambooth Stable Diffusion model checkpoints, visit the Hugging Face Models repository: 
+For accessing Stable Diffusion model checkpoints, visit the Hugging Face Models repository: 
 
 [Brain_normal_horizontal_MRI](https://huggingface.co/KidderLab/Brain_normal_horizontal_MRI)
 
