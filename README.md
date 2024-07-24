@@ -285,7 +285,7 @@ pip install pytorch-fid
 python -m pytorch_fid path/to/dataset1 path/to/dataset2
 ```
 
-# Citation
+# Citing
 
 If you use this repository in your research, consider citing it using:
 
