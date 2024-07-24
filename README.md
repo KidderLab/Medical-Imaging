@@ -233,6 +233,7 @@ for img in images:
     display(img)
 ```
 
+
 # Huggingface Models
 
 [Brain_normal_horizontal_MRI](https://huggingface.co/KidderLab/Brain_normal_horizontal_MRI)
