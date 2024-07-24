@@ -256,7 +256,7 @@ for img in images:
 
 # Compute FID Scores 
 
-The pytorch-fid code can be obtained from here:[pytorch-fid](https://github.com/mseitzer/pytorch-fid/).
+You may access the PyTorch-FID code for computing FID scores at this link: [pytorch-fid](https://github.com/mseitzer/pytorch-fid/).
 
 
 
