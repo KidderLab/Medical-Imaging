@@ -239,7 +239,7 @@ for img in images:
 
 [Brain_normal_saggital_MRI](https://huggingface.co/KidderLab/Brain_normal_saggital_MRI)
 
-[Brain_pituitary_tumor_cross_section](https://huggingface.co/KidderLab/Brain_pituitary_tumor_cross_section)
+[Brain_normal_horizontal_MRI](https://huggingface.co/KidderLab/Brain_normal_horizontal_MRI)
 
 [Brain_pituitary_tumor_horizontal_MRI](https://huggingface.co/KidderLab/Brain_pituitary_tumor_horizontal_MRI)
 
