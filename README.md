@@ -265,7 +265,7 @@ git clone https://github.com/mseitzer/pytorch-fid.git
 pip install pytorch-fid
 ```
 
-# Requirements:
+**Requirements:**
 
 * python3
 * pytorch
