@@ -68,11 +68,4 @@ for img in images:
     img.show()
 ```
 
-**Gradio Web UI**
 
-```python
-import gradio as gr
-def generate_images(prompt):
-    return pipe(prompt=prompt, num_inference_steps=50).images
-gr.Interface(fn=generate_images, inputs="text", outputs="image").launch()
-```
