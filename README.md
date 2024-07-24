@@ -258,5 +258,19 @@ for img in images:
 
 You may access the PyTorch-FID code for computing FID scores at this link: [pytorch-fid](https://github.com/mseitzer/pytorch-fid/).
 
+**Installation**
+
+```bash
+git clone https://github.com/mseitzer/pytorch-fid.git
+pip install pytorch-fid
+
+```
+
+**Usage**
+
+```bash
+python -m pytorch_fid path/to/dataset1 path/to/dataset2
+```
+
 
 
