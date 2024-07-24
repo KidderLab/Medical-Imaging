@@ -71,5 +71,9 @@ for img in images:
 # Huggingface Models
 
 [Chest X-ray](https://huggingface.co/KidderLab/Chest_X-ray)
+[Brain_normal_saggital_MRI](https://huggingface.co/KidderLab/Brain_normal_saggital_MRI)
+[Brain_pituitary_tumor_cross_sectio](https://huggingface.co/KidderLab/Brain_pituitary_tumor_cross_section)
+
+
 
 
