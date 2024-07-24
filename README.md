@@ -274,7 +274,6 @@ pip install pytorch-fid
 * numpy
 * scipy
 
-```
 
 **Usage**
 
