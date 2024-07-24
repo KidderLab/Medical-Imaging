@@ -281,5 +281,22 @@ pip install pytorch-fid
 python -m pytorch_fid path/to/dataset1 path/to/dataset2
 ```
 
+# Citing
+
+If you use this repository in your research, consider citing it using:
+
+```
+@article {Kidder2023.08.18.553859,
+	author = {Kidder, Benjamin L.},
+	title = {Advanced image generation for cancer using diffusion models},
+	elocation-id = {2023.08.18.553859},
+	year = {2023},
+	doi = {10.1101/2023.08.18.553859},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2023/08/21/2023.08.18.553859},
+	eprint = {https://www.biorxiv.org/content/early/2023/08/21/2023.08.18.553859.full.pdf},
+	journal = {bioRxiv}
+}
+```
 
 
