@@ -72,7 +72,7 @@ with open("concepts_list.json", "w") as f:
     json.dump(concepts_list, f, indent=4)
 ```
 
-```
+```python
 #Upload your images by running this cell.
 #OR
 #You can use the file manager on the left panel to upload (drag and drop) to each `instance_data_dir` (it uploads faster). You can also upload your own class images in `class_data_dir` if u don't wanna generate with SD.
@@ -89,7 +89,7 @@ for c in concepts_list:
         shutil.move(filename, dst_path)
 ```
 
-```
+```bash
 !python3 train_dreambooth.py \
   --pretrained_model_name_or_path=$MODEL_NAME \
   --pretrained_vae_name_or_path="stabilityai/sd-vae-ft-mse" \
@@ -129,7 +129,7 @@ if WEIGHTS_DIR == "":
 print(f"[*] WEIGHTS_DIR={WEIGHTS_DIR}")
 ```
 
-```
+```python
 #Run to generate a grid of preview images from the last saved weights.
 import os
 import matplotlib.pyplot as plt
