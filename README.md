@@ -268,8 +268,8 @@ pip install pytorch-fid
 ```
 Requirements:
 
-*python3
-*pytorch
+-python3
+-pytorch
 *torchvision
 *pillow
 *numpy
