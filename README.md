@@ -73,11 +73,9 @@ with open("concepts_list.json", "w") as f:
 ```
 
 ```
-#@markdown Upload your images by running this cell.
-
-#@markdown OR
-
-#@markdown You can use the file manager on the left panel to upload (drag and drop) to each `instance_data_dir` (it uploads faster). You can also upload your own class images in `class_data_dir` if u don't wanna generate with SD.
+#Upload your images by running this cell.
+#OR
+#You can use the file manager on the left panel to upload (drag and drop) to each `instance_data_dir` (it uploads faster). You can also upload your own class images in `class_data_dir` if u don't wanna generate with SD.
 
 import os
 from google.colab import files
