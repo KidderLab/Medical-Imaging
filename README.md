@@ -265,15 +265,14 @@ git clone https://github.com/mseitzer/pytorch-fid.git
 pip install pytorch-fid
 ```
 
-```bash
-Requirements:
+# Requirements:
 
 * python3
--pytorch
-*torchvision
-*pillow
-*numpy
-*scipy
+* pytorch
+* torchvision
+* pillow
+* numpy
+* scipy
 
 ```
 
