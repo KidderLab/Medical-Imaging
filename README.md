@@ -68,7 +68,7 @@ for img in images:
     img.show()
 ```
 
-**Huggingface Models**
-https://huggingface.co/KidderLab/Chest_X-ray
+**Trained Models can be found on Huggingface**
+[Chest X-ray](https://huggingface.co/KidderLab/Chest_X-ray)
 
 
